@@ -1,0 +1,86 @@
+body{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+main {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: 0.7cm;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.output{
+    padding: 1rem;
+    border: 1px solid black;
+    width: 50%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+   
+}
+
+.heading{
+    background-color: #fcd34d;
+    padding: 1rem;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    border-top-right-radius: 1rem ;
+}
+
+.button {
+    text-align: center;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+#btn-translate { 
+    background-color:#fcd34d;
+    border: none;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+.output_text{
+    font-size: 0.6cm;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer{
+    background-color: #fcd34d;
+    padding: 2rem 0rem;
+    text-align: center;
+    color: rgb(7, 0, 0);
+    border-top-right-radius: 1rem ;
+    width: 100%;
+}
+
+
+.footer .footer-header{
+    font-size: 0.7cm;
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+}
+
+.footer .footer-content{
+    font-size:larger;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
